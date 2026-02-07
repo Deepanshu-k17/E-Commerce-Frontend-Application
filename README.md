@@ -2,9 +2,6 @@
 
 A high-performance Next.js e-commerce platform with Redux Toolkit for state management, dynamic product filtering, pagination, and integrated Stripe payments. This project is built with Server-Side Rendering (SSR) and Static Site Generation (SSG) for optimized SEO and fast performance. It uses TailwindCSS for styling and includes dynamic charts for data visualization.
 
-**If you like it please give a star ⭐**    
- 
-**Back-end github:** [Gadget Galaxy Backend](https://github.com/NiharMondal/gadget-galaxy-backend)
 
 ### Features
 * Next.js: Utilized for server-side rendering (SSR) to fetch products, improving SEO and performance.
@@ -40,39 +37,6 @@ A high-performance Next.js e-commerce platform with Redux Toolkit for state mana
 * __Payments:__ Stripe    
 * __Charts:__ Chart.js    
    
-
-### Installation
-1. Clone the Repository:
-```bash
-git clone https://github.com/NiharMondal/nextjs-ecommerce
-
-```
-2. Navigate to the project directory:
-```
-cd nextjs-ecommerce
-```
-3. Install Dependencies
-```bash
-npm install
-```
-4. Set Up Environment Variables
-```bash
-NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME="your cloud name"
-
-NEXT_PUBLIC_BACKEND_URL = "http://localhost:5000/api/v1"
-
-NEXT_PUBLIC_BACKEND_URL_PRODUCTION = "your backend deployed live link"
-NEXT_PUBLIC_STRIPE_PUBLISHED_KEY="your stripe published key"
-```
-5. Run the Application
-To start the development server, run:
-
-```bash
-npm run dev
-```
-The application will be available at http://localhost:3000.
-
-
 ## Usage
 * Browse products, filter by category, brand, etc.    
 * Add items to the cart and proceed to checkout using Stripe.   
@@ -103,13 +67,6 @@ Sign up, log in, and access protected routes using JSON Web Tokens (JWT).
 5. Stripe Integration
 Seamless payment experience with Stripe integration.
 
-#### Future Improvements
-* Add more payment gateways.
-* Implement real-time notifications for order updates.
-* Improve user dashboard with tracking history.
-
-## Contributing
-Contributions are welcome! If you'd like to contribute to this project, feel free to submit a pull request or open an issue.
 
 ### Screenshots
 * Home page
